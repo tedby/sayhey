@@ -1,0 +1,15 @@
+{
+    "apps": [{
+        "name": "kotd",
+        "script": "start",
+        "cwd": "./bin",
+        "instances": 1,
+        "merge_logs": true,
+        "exec_mode": "cluster_mode",
+        "watch": true,
+        "ignore_watch": ["logs"],
+        "error_file": "../logs/kotd.error.log",
+        "out_file": "../logs/kotd.out.log",
+        "pid_file": "../kotd.pid"
+    }]
+}

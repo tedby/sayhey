@@ -1,0 +1,12 @@
+{
+	"lang": "en",
+	"phrases": {
+		"cheat": ["Don't ask me I'll never tell"],
+		"invite": ["Hey I just met you and this is crazy! But here's my number, so call me maybe %s!"],
+		"farewell": ["Where you think you're going baby @%s?"],
+		"heroes": ["Friendzone:\n%s"],
+		"play": ["Before you came into my life,\nI missed you so bad,\n", "And you should know that @%s"],
+		"top": ["I Have A Boyfriend\n%s"],
+		"welcome": ["It's hard to look right at you baby @%s"]
+	}
+}
