@@ -1,12 +1,17 @@
 Say hey game telegram bot
 =========================
 
+Demo
+----
+
+You can add @kotd_bot to your channel for demostration. See autohelp
+
 Installation
 ------------
 
 ```console
   $ git clone https://github.com/ofkindness/sayhey.git
-  $ cd sayhey && git fetch && git checkout develop && npm install
+  $ cd sayhey && git fetch && git checkout master && npm install
 ```
 
 Dockerize

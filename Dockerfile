@@ -6,7 +6,7 @@ ENV NODE_ENV production
 
 ENV PATH $PATH:/opt/sayhey/bin
 
-RUN mkdir -p /opt/sayhey
+RUN mkdir -p /opt/sayhey/logs
 
 COPY . /opt/sayhey
 
