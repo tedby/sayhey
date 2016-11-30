@@ -4,7 +4,7 @@ Say hey game telegram bot
 Demo
 ----
 
-You can add @kotd_bot to your channel for demostration. See autohelp
+You can add @kotd_bot to your channel for demonstration. See autohelp for game detail
 
 Installation
 ------------
