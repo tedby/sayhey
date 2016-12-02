@@ -15,6 +15,11 @@ bot.onText(/\/hey/, play.checkPlayer);
 bot.onText(/\/nohey/, play.quit);
 // Matches "/say [whatever]"
 bot.onText(/\/say (.+)/, play.highlight);
+// Start game old way
+bot.onText(/\/pidor/, play.checkGame);
+// Register game old way
+bot.onText(/\/pidoreg/, play.checkPlayer);
+//
 
 // Listen for any kind of message. There are different kinds of
 // messages.
