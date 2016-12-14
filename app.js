@@ -8,6 +8,8 @@ const bot = new TelegramBot(token, {
 });
 
 const play = require('./lib/play.js')(bot);
+const vote = require('./lib/vote.js')(bot);
+
 
 // Play
 bot.onText(/\/hey/, play.checkPlayer);
@@ -19,7 +21,10 @@ bot.onText(/\/say (.+)/, play.highlight);
 bot.onText(/\/pidor/, play.checkGame);
 // Register game old way
 bot.onText(/\/pidoreg/, play.checkPlayer);
-//
+// Start poll
+bot.onText(/^\/poll/, vote.createPoll);
+// porcess polling results
+bot.on('callback_query', vote.makeChoice);
 
 // Listen for any kind of message. There are different kinds of
 // messages.
